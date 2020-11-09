@@ -1,4 +1,4 @@
-# UOC--Lenguajes-y-est-ndares-web
+# UOC--Lenguajes-y-estandares-web-ACT2
 Trabajos de parciales de la asignatura
 
 
