@@ -1,0 +1,265 @@
+
+
+/* En esta parte se encontrarán las reglas de estilo generales, que se aplican a todas las páginas */
+
+body {
+  font-family: Arial, Helvetica;
+  font-size: 16px;
+  background-color: #e3e4e5;
+}
+
+.menu ul {
+  color: white;
+  list-style: none;
+  background-color: black;
+  height: 45px;
+  width: 100%;
+  max-width:1370px;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: -10px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 80px;
+  margin-top: 15px;
+}
+
+.menu li:first-child{
+  margin-left: 300px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 12px 12px 12px 12px;
+}
+.menu a:link {
+  color: #ffffff ;
+}
+.menu a:visited {
+  color: #ffffff;
+}
+.menu a:hover {
+  color: black;
+  background-color: #ffffff;
+}
+
+#imagen {
+  background-image: url(images/cabecera.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  margin-top: -17px;
+}
+
+.logo {
+  color: black;
+  width: 100%;
+  max-width:1020px;
+  background-color: white;
+  background-size: 100%;
+  opacity: 0.6;
+  text-shadow: 4px 4px #3889c8;
+  font-size: 42px;
+  font-weight: bolder;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  display: inline-block;
+  padding: 20px 10px 20px 380px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titulo1 {
+font-weight: bold;
+text-align: center;
+font-size: 22px;
+}
+
+.titulo2{
+  font-weight: bold;
+  text-align: left;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.cursiva {
+  font-style: italic;
+}
+
+.centrado {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.nombres {
+  color: #3889c8;
+}
+
+/* En esta parte trataré los estilos relacionados con la pagina index.html */
+
+.container {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 960px;
+  margin: 0em auto;
+  background-color: white;
+  padding: 0px 7px 0px 7px;
+}
+.container p {
+  text-indent: 40px;
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.meta {
+  text-indent: 0%;
+  color: gray;
+}
+
+.container img {
+  margin-left: 165px;
+  box-shadow: 5px 5px 10px 0px gray;
+}
+
+figcaption {
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+/* En esta parte trataré los estilos relacionados con la pagina diseno.html */
+
+.container2 {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 960px;
+  margin: 0em auto;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+.marco {
+  display: inline-block;
+  border: solid 1px black;
+  border-top: solid #3889c8 96px;
+  padding: 15px;
+  margin: 35px;
+  width: 200px;
+  height: 295px;
+  text-align: center;
+  box-shadow: 5px 5px 10px 0px gray;
+}
+
+.participante {
+  color: green;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.foto {
+  margin-top: -80px;
+  max-width: 100%;
+  border-radius: 100px;
+}
+
+.descripcion {
+  text-align: justify;
+  font-size: 12px;
+}
+
+/* En esta parte trataré los estilos relacionados con la pagina colores.html */
+
+.container2 {
+  border: 1px solid black;
+  width: 90%;
+  max-width: 960px;
+  margin: 0em auto;
+  background-color: white;
+  padding: 0px 5px 0px 5px;
+}
+
+.caja1 {
+  border: 3px solid gray;
+  border-radius: 20px 50% / 3em 100px 0px 0px;
+  margin: 20px 40px 0px 40px;
+  padding: 10px;
+  text-indent: 40px;
+
+}
+
+.caja2 {
+  border: 3px solid gray;
+  border-radius: 0px 0px 50px 50px;
+  margin: -3px 40px 0px 40px;
+  text-align: left;
+  text-indent: 40px;
+  line-height: 1.5;
+  padding: 15px 15px 5px 15px;
+
+}
+
+img.list {
+  width: 30%;
+  margin: 0px 250px 0px 55px;
+  padding: 5px 5px 10px 230px;
+}
+
+#ul {
+    list-style: none;
+    text-indent: -2em;
+}
+
+#ul li:before {
+    content: "\2055";
+    margin: 0 0.5em;
+    color: #3889c8;
+}
+
+li p {
+  display: inline;
+  line-height: 10px;
+}
+
+
+/* En esta parte están las reglas de estilo relacionadas con el pie de pagina*/
+
+footer {
+  background-color: #3889c8;
+  width: 100%;
+  max-width:1370px;
+  padding: 10px 10px 10px 20px;
+  text-decoration: none;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+}
+
+footer a{
+  font-style: italic;
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+footer a:link {
+  color: #ffffff;
+}
+footer a:visited {
+  color: #ffffff;
+}
+footer a:hover {
+  color: black;
+}
+.piediseno {
+  padding-bottom: 60px;
+}
